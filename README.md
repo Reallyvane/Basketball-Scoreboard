@@ -28,7 +28,7 @@ Users are able to:
 
 ### Link
 
-- Live Site URL: [Vercel]()
+- Live Site URL: [Vercel](https://nesdevs-basketball-scoreboard.vercel.app)
 
 ## My process
 
