@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+
+body {
+  background-image: url(https://img.freepik.com/free-vector/basketball-court-with-line-marking-realistic-playground-top-view-hardwood-floor-flat-vector_206049-2530.jpg?w=2000);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.container {
+  width: 25rem;
+  height: 18rem;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.11);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.4px);
+  -webkit-backdrop-filter: blur(5.4px);
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: space-around;
+}
+
+h1,h2 {
+  font-size: 2rem;
+}
+
+.score {
+  background: rgba(255, 255, 255, 0.11);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.4px);
+  -webkit-backdrop-filter: blur(5.4px);
+  font-size: 6rem;
+  font-family: "Black Ops One", cursive;
+  color: black;
+  width: 100%;
+  margin: 1rem 0rem;
+}
+
+.add-scores {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+button {
+  padding: 0.3rem;
+  background: none;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+  cursor: pointer;
+}
+
+.scores {
+  background: rgba(255, 255, 255, 0.11);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.4px);
+  -webkit-backdrop-filter: blur(5.4px);
+  margin: 0.2rem;
+}
+
+#new-game-btn {
+  background: rgba(255, 255, 255, 0.11);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.4px);
+  -webkit-backdrop-filter: blur(5.4px);
+}
+
+.highlight {
+  -webkit-box-shadow: 0px 0px 17px 5px rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 17px 5px rgba(255, 255, 255, 1);
+}

@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="index.css" />
+
+      <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/basketball.png"
+    />
+
+    <title>NesDevs | Basketball Scoreboard</title>
+  </head>
+
+  <body>
+    <main>
+      <div class="container">
+        <div class="scoreboard">
+          <div>
+            <h1>HOME</h2>
+            <div>
+              <h3 class="score" id="homeScore"></h3>
+            </div>
+            <div class="add-scores">
+              <button class="scores" onclick="incrementHome(1)">+1</button>
+              <button class="scores" onclick="incrementHome(2)">+2</button>
+              <button class="scores" onclick="incrementHome(3)">+3</button>
+            </div>
+          </div>
+          <div>
+            <h2>GUEST</h2>
+            <div>
+              <h3 class="score" id="guestScore"></h3>
+            </div>
+            <div class="add-scores">
+              <button class="scores" onclick="incrementGuest(1)">+1</button>
+              <button class="scores" onclick="incrementGuest(2)">+2</button>
+              <button class="scores" onclick="incrementGuest(3)">+3</button>
+            </div>
+          </div>
+        </div>
+        <div class="new-game">
+          <button id="new-game-btn" onclick="newGame()">New Game</button>
+        </div>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
